@@ -4,6 +4,9 @@ import './imageform.css';
 const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
   return (
     <div>
+     <p className='f2'>
+        {'Made by: João Marques'}
+      </p>
       <p className='f3'>
         {'This Magic Brain will detect Multiplefaces in your pictures'}
       </p>
